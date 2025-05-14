@@ -1,0 +1,13 @@
+name: simlab-env
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.13        # Core language required for the project
+  - pandas              # Data analysis and manipulation library
+  - numpy               # Fundamental package for numerical computations
+  - matplotlib          # Plotting and visualization library
+  - tespy               # Thermal engineering simulation library for energy systems
+  - pywin32             # Windows-specific utility library, needed for ebsilon compatibility
+  - pip                 # Package installer for Python, included for managing additional packages
+  - ipython             # Interactive Python shell for debugging and testing
+  - jupyterlab          # Web-based interactive development environment for Jupyter notebooks
